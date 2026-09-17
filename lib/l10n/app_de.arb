@@ -1,0 +1,60 @@
+{
+  "@@locale": "de",
+  "appTitle": "C Aegean Handpan",
+
+  "navFreePlay": "Frei spielen",
+  "navGuided": "Angeleitet",
+  "navSettings": "Einstellungen",
+
+  "freePlayCredit": "Diese App wurde von YouTuber und Musiker Malte Marten inspiriert.",
+  "freePlayLabelsToggle": "Notennamen anzeigen",
+  "freePlayReverbToggle": "Resonanz (Hall)",
+  "freePlayVolumeLabel": "Lautstärke",
+  "freePlayFooterCaption": "C Aegean · Ding C3 + 8 Klangfelder",
+
+  "guidedSubtitle": "Wähle ein Stück, höre es dir zuerst an oder spiele direkt mit.",
+  "guidedTuneLabel": "Übungsstück",
+  "guidedListenButton": "Zuerst anhören",
+  "guidedPracticeButton": "Mitspielen",
+  "guidedStopButton": "Stopp",
+
+  "guidedListeningStatus": "🎧 Spiele gerade \"{tuneName}\" für dich …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "Fertig gehört? Tippe auf \"Mitspielen\" und probiere es selbst!",
+  "guidedProgressStatus": "{current} / {total} — nächster Ton: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 Du hast das ganze Stück gespielt! Versuch es noch einmal oder wähle ein anderes.",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "Ton {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "Wellen-Arpeggio",
+  "tuneEveningName": "Abendlied",
+  "tuneSeedName": "Improvisationskeim (Übungsschleife)",
+
+  "settingsTitle": "Einstellungen",
+  "settingsThemeSection": "Design",
+  "settingsThemeSystem": "Systemeinstellung",
+  "settingsThemeLight": "Hell",
+  "settingsThemeDark": "Dunkel",
+  "settingsBirdVolumeSection": "Vogelgezwitscher-Lautstärke",
+  "settingsLanguageSection": "Sprache",
+  "settingsLanguageSystem": "Systemsprache"
+}

@@ -1,0 +1,60 @@
+{
+  "@@locale": "ja",
+  "appTitle": "Cエーゲ・ハンドパン",
+
+  "navFreePlay": "自由演奏",
+  "navGuided": "ガイド演奏",
+  "navSettings": "設定",
+
+  "freePlayCredit": "YouTuberであり音楽家でもあるMalte Martenさんからインスピレーションを受けて作られたアプリです。",
+  "freePlayLabelsToggle": "音名を表示",
+  "freePlayReverbToggle": "共鳴(リバーブ)",
+  "freePlayVolumeLabel": "音量",
+  "freePlayFooterCaption": "C エーゲ · Ding C3 + 8トーンフィールド",
+
+  "guidedSubtitle": "曲を選んで先に聴くか、そのまま一緒に演奏してみましょう。",
+  "guidedTuneLabel": "練習曲",
+  "guidedListenButton": "先に聴く",
+  "guidedPracticeButton": "一緒に演奏する",
+  "guidedStopButton": "停止",
+
+  "guidedListeningStatus": "🎧「{tuneName}」をお聴かせします …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "聴き終わりましたか?「一緒に演奏する」で試してみましょう!",
+  "guidedProgressStatus": "{current} / {total} — 次の音: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 最後まで演奏できました!もう一度挑戦するか、別の曲を選んでみましょう。",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "{order}番目の音 · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "さざ波のアルペジオ",
+  "tuneEveningName": "夕べの歌",
+  "tuneSeedName": "即興のたね(反復練習)",
+
+  "settingsTitle": "設定",
+  "settingsThemeSection": "テーマ",
+  "settingsThemeSystem": "システムに合わせる",
+  "settingsThemeLight": "ライト",
+  "settingsThemeDark": "ダーク",
+  "settingsBirdVolumeSection": "鳥の声の音量",
+  "settingsLanguageSection": "言語",
+  "settingsLanguageSystem": "システムの言語"
+}

@@ -1,0 +1,60 @@
+{
+  "@@locale": "es",
+  "appTitle": "Handpan C Egeo",
+
+  "navFreePlay": "Libre",
+  "navGuided": "Guiado",
+  "navSettings": "Ajustes",
+
+  "freePlayCredit": "Inspirada en el youtuber y músico Malte Marten.",
+  "freePlayLabelsToggle": "Mostrar nombres de notas",
+  "freePlayReverbToggle": "Resonancia (reverberación)",
+  "freePlayVolumeLabel": "Volumen",
+  "freePlayFooterCaption": "C Egeo · Ding C3 + 8 campos tonales",
+
+  "guidedSubtitle": "Elige una melodía, escúchala primero o empieza a tocarla directamente.",
+  "guidedTuneLabel": "Melodía",
+  "guidedListenButton": "Escuchar primero",
+  "guidedPracticeButton": "Tocar junto con la guía",
+  "guidedStopButton": "Detener",
+
+  "guidedListeningStatus": "🎧 Reproduciendo \"{tuneName}\" …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "¿Ya la escuchaste? ¡Pulsa \"Tocar junto con la guía\" y pruébalo tú mismo!",
+  "guidedProgressStatus": "{current} / {total} — siguiente nota: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 ¡Completaste toda la melodía! Vuelve a intentarlo o elige otra.",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "Nota {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "Arpegio de olas",
+  "tuneEveningName": "Canción del atardecer",
+  "tuneSeedName": "Semilla de improvisación (práctica en bucle)",
+
+  "settingsTitle": "Ajustes",
+  "settingsThemeSection": "Tema",
+  "settingsThemeSystem": "Igual que el sistema",
+  "settingsThemeLight": "Claro",
+  "settingsThemeDark": "Oscuro",
+  "settingsBirdVolumeSection": "Volumen de los pájaros",
+  "settingsLanguageSection": "Idioma",
+  "settingsLanguageSystem": "Idioma del sistema"
+}

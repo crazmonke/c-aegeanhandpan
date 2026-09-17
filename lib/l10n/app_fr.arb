@@ -1,0 +1,60 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Handpan C Égéen",
+
+  "navFreePlay": "Jeu libre",
+  "navGuided": "Guidé",
+  "navSettings": "Réglages",
+
+  "freePlayCredit": "Application inspirée par le YouTubeur et musicien Malte Marten.",
+  "freePlayLabelsToggle": "Afficher les noms des notes",
+  "freePlayReverbToggle": "Résonance (réverbération)",
+  "freePlayVolumeLabel": "Volume",
+  "freePlayFooterCaption": "C Égéen · Ding C3 + 8 zones tonales",
+
+  "guidedSubtitle": "Choisissez un morceau, écoutez-le d'abord ou jouez-le tout de suite.",
+  "guidedTuneLabel": "Morceau",
+  "guidedListenButton": "Écouter d'abord",
+  "guidedPracticeButton": "Jouer en même temps",
+  "guidedStopButton": "Arrêter",
+
+  "guidedListeningStatus": "🎧 Lecture de « {tuneName} » pour vous …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "Vous avez écouté ? Appuyez sur « Jouer en même temps » et essayez !",
+  "guidedProgressStatus": "{current} / {total} — note suivante : {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 Vous avez joué le morceau en entier ! Recommencez ou choisissez-en un autre.",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "Note {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "Arpège des vaguelettes",
+  "tuneEveningName": "Chant du soir",
+  "tuneSeedName": "Graine d'improvisation (boucle d'entraînement)",
+
+  "settingsTitle": "Réglages",
+  "settingsThemeSection": "Thème",
+  "settingsThemeSystem": "Suivre le système",
+  "settingsThemeLight": "Clair",
+  "settingsThemeDark": "Sombre",
+  "settingsBirdVolumeSection": "Volume des oiseaux",
+  "settingsLanguageSection": "Langue",
+  "settingsLanguageSystem": "Langue du système"
+}

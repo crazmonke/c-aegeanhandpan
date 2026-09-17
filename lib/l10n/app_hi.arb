@@ -1,0 +1,60 @@
+{
+  "@@locale": "hi",
+  "appTitle": "सी एजियन हैंडपैन",
+
+  "navFreePlay": "स्वतंत्र वादन",
+  "navGuided": "निर्देशित अभ्यास",
+  "navSettings": "सेटिंग्स",
+
+  "freePlayCredit": "यह ऐप यूट्यूबर और संगीतकार Malte Marten से प्रेरित होकर बनाई गई है।",
+  "freePlayLabelsToggle": "स्वर नाम दिखाएँ",
+  "freePlayReverbToggle": "गूंज (रिवर्ब)",
+  "freePlayVolumeLabel": "आवाज़",
+  "freePlayFooterCaption": "सी एजियन · डिंग C3 + 8 टोन फ़ील्ड",
+
+  "guidedSubtitle": "एक धुन चुनें, पहले सुनें, या सीधे साथ बजाना शुरू करें।",
+  "guidedTuneLabel": "अभ्यास धुन",
+  "guidedListenButton": "पहले सुनें",
+  "guidedPracticeButton": "साथ बजाएँ",
+  "guidedStopButton": "रोकें",
+
+  "guidedListeningStatus": "🎧 आपके लिए \"{tuneName}\" बज रही है …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "सुन लिया? अब \"साथ बजाएँ\" दबाकर खुद आज़माइए!",
+  "guidedProgressStatus": "{current} / {total} — अगला स्वर: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 पूरी धुन बज गई! फिर से आज़माएँ या दूसरी धुन चुनें।",
+
+  "guidedNoteDing": "डिंग · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "स्वर {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "लहर आर्पेजियो",
+  "tuneEveningName": "साँझ का गीत",
+  "tuneSeedName": "सुर-बीज (दोहराव अभ्यास)",
+
+  "settingsTitle": "सेटिंग्स",
+  "settingsThemeSection": "थीम",
+  "settingsThemeSystem": "सिस्टम अनुसार",
+  "settingsThemeLight": "लाइट",
+  "settingsThemeDark": "डार्क",
+  "settingsBirdVolumeSection": "पक्षियों की आवाज़",
+  "settingsLanguageSection": "भाषा",
+  "settingsLanguageSystem": "सिस्टम भाषा"
+}

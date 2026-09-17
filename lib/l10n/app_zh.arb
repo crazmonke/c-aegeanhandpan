@@ -1,0 +1,60 @@
+{
+  "@@locale": "zh",
+  "appTitle": "C 爱琴手碟",
+
+  "navFreePlay": "自由演奏",
+  "navGuided": "跟弹引导",
+  "navSettings": "设置",
+
+  "freePlayCredit": "灵感来自 YouTuber 兼音乐人 Malte Marten。",
+  "freePlayLabelsToggle": "显示音名",
+  "freePlayReverbToggle": "共鸣(混响)",
+  "freePlayVolumeLabel": "音量",
+  "freePlayFooterCaption": "C 爱琴 · Ding C3 + 8 个音区",
+
+  "guidedSubtitle": "选一首曲子,先听一遍,或者直接跟着弹奏。",
+  "guidedTuneLabel": "练习曲",
+  "guidedListenButton": "先听一遍",
+  "guidedPracticeButton": "跟着弹奏",
+  "guidedStopButton": "停止",
+
+  "guidedListeningStatus": "🎧 正在为你播放《{tuneName}》…",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "听完了吗?点击「跟着弹奏」自己试试看!",
+  "guidedProgressStatus": "{current} / {total} — 下一个音: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 弹完整首曲子啦!再来一遍,或者换一首试试。",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "第 {order} 音 · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "涟漪琶音",
+  "tuneEveningName": "夜曲",
+  "tuneSeedName": "即兴种子(循环练习)",
+
+  "settingsTitle": "设置",
+  "settingsThemeSection": "主题",
+  "settingsThemeSystem": "跟随系统",
+  "settingsThemeLight": "浅色",
+  "settingsThemeDark": "深色",
+  "settingsBirdVolumeSection": "鸟鸣音量",
+  "settingsLanguageSection": "语言",
+  "settingsLanguageSystem": "系统语言"
+}

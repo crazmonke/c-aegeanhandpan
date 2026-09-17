@@ -1,0 +1,60 @@
+{
+  "@@locale": "en",
+  "appTitle": "C Aegean Handpan",
+
+  "navFreePlay": "Free Play",
+  "navGuided": "Guided",
+  "navSettings": "Settings",
+
+  "freePlayCredit": "Inspired by YouTuber and musician Malte Marten.",
+  "freePlayLabelsToggle": "Show note names",
+  "freePlayReverbToggle": "Resonance (reverb)",
+  "freePlayVolumeLabel": "Volume",
+  "freePlayFooterCaption": "C Aegean · Ding C3 + 8 tone fields",
+
+  "guidedSubtitle": "Pick a tune, listen first, or jump straight into playing along.",
+  "guidedTuneLabel": "Tune",
+  "guidedListenButton": "Listen first",
+  "guidedPracticeButton": "Play along",
+  "guidedStopButton": "Stop",
+
+  "guidedListeningStatus": "🎧 Playing \"{tuneName}\" for you …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "Ready? Tap \"Play along\" and try it yourself!",
+  "guidedProgressStatus": "{current} / {total} — next note: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 You played the whole tune! Try again or pick another one.",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "Note {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "Ripple Arpeggio",
+  "tuneEveningName": "Evening Song",
+  "tuneSeedName": "Improv Seed (loop practice)",
+
+  "settingsTitle": "Settings",
+  "settingsThemeSection": "Theme",
+  "settingsThemeSystem": "Follow system",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsBirdVolumeSection": "Bird sound volume",
+  "settingsLanguageSection": "Language",
+  "settingsLanguageSystem": "System language"
+}

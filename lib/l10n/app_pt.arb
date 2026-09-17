@@ -1,0 +1,60 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Handpan C Egeu",
+
+  "navFreePlay": "Livre",
+  "navGuided": "Guiado",
+  "navSettings": "Definições",
+
+  "freePlayCredit": "Inspirada no youtuber e músico Malte Marten.",
+  "freePlayLabelsToggle": "Mostrar nomes das notas",
+  "freePlayReverbToggle": "Ressonância (reverb)",
+  "freePlayVolumeLabel": "Volume",
+  "freePlayFooterCaption": "C Egeu · Ding C3 + 8 campos tonais",
+
+  "guidedSubtitle": "Escolha uma melodia, ouça primeiro ou comece já a tocar junto.",
+  "guidedTuneLabel": "Melodia",
+  "guidedListenButton": "Ouvir primeiro",
+  "guidedPracticeButton": "Tocar junto",
+  "guidedStopButton": "Parar",
+
+  "guidedListeningStatus": "🎧 A tocar \"{tuneName}\" para si …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "Já ouviu? Toque em \"Tocar junto\" e experimente você mesmo!",
+  "guidedProgressStatus": "{current} / {total} — próxima nota: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 Tocou a melodia até ao fim! Tente novamente ou escolha outra.",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "Nota {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "Arpejo de Ondas",
+  "tuneEveningName": "Canção da Noite",
+  "tuneSeedName": "Semente de Improviso (prática em loop)",
+
+  "settingsTitle": "Definições",
+  "settingsThemeSection": "Tema",
+  "settingsThemeSystem": "Seguir o sistema",
+  "settingsThemeLight": "Claro",
+  "settingsThemeDark": "Escuro",
+  "settingsBirdVolumeSection": "Volume dos pássaros",
+  "settingsLanguageSection": "Idioma",
+  "settingsLanguageSystem": "Idioma do sistema"
+}

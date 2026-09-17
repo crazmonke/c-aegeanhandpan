@@ -1,0 +1,61 @@
+{
+  "@@locale": "ko",
+  "appTitle": "C 에게해 핸드팬",
+  "@appTitle": {"description": "The application's display name."},
+
+  "navFreePlay": "자유 연주",
+  "navGuided": "따라 연주",
+  "navSettings": "설정",
+
+  "freePlayCredit": "유튜버이자 음악가인 Malte Marten님의 영감을 받아 제작한 앱입니다.",
+  "freePlayLabelsToggle": "음이름 표시",
+  "freePlayReverbToggle": "공명(리버브)",
+  "freePlayVolumeLabel": "음량",
+  "freePlayFooterCaption": "C 에게해 · Ding C3 + 8 톤필드",
+
+  "guidedSubtitle": "곡을 고르고 먼저 들어보거나, 바로 따라 연주해보세요.",
+  "guidedTuneLabel": "연습곡",
+  "guidedListenButton": "먼저 들어보기",
+  "guidedPracticeButton": "따라 연주하기",
+  "guidedStopButton": "중지",
+
+  "guidedListeningStatus": "🎧 {tuneName} 들려드릴게요 …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "다 들으셨나요? '따라 연주하기'로 직접 쳐보세요!",
+  "guidedProgressStatus": "{current} / {total} — 다음 음: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 끝까지 연주했어요! 다시 하거나 다른 곡을 골라보세요.",
+
+  "guidedNoteDing": "Ding · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "{order}번째 음 · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "잔물결 아르페지오",
+  "tuneEveningName": "저녁 노래",
+  "tuneSeedName": "즉흥 씨앗 (반복 연습)",
+
+  "settingsTitle": "설정",
+  "settingsThemeSection": "테마",
+  "settingsThemeSystem": "시스템 설정",
+  "settingsThemeLight": "라이트",
+  "settingsThemeDark": "다크",
+  "settingsBirdVolumeSection": "새소리 음량",
+  "settingsLanguageSection": "언어",
+  "settingsLanguageSystem": "시스템 언어"
+}

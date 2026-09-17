@@ -1,0 +1,60 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Хендпан C Aegean",
+
+  "navFreePlay": "Свободная игра",
+  "navGuided": "С подсказками",
+  "navSettings": "Настройки",
+
+  "freePlayCredit": "Приложение создано под впечатлением от ютубера и музыканта Malte Marten.",
+  "freePlayLabelsToggle": "Показывать названия нот",
+  "freePlayReverbToggle": "Резонанс (реверберация)",
+  "freePlayVolumeLabel": "Громкость",
+  "freePlayFooterCaption": "C Aegean · Ding C3 + 8 тональных полей",
+
+  "guidedSubtitle": "Выберите мелодию, сначала прослушайте её или сразу начните играть по подсказкам.",
+  "guidedTuneLabel": "Мелодия",
+  "guidedListenButton": "Сначала послушать",
+  "guidedPracticeButton": "Играть по подсказкам",
+  "guidedStopButton": "Остановить",
+
+  "guidedListeningStatus": "🎧 Играем для вас «{tuneName}» …",
+  "@guidedListeningStatus": {
+    "placeholders": {"tuneName": {"type": "String"}}
+  },
+  "guidedListenDoneStatus": "Прослушали? Нажмите «Играть по подсказкам» и попробуйте сами!",
+  "guidedProgressStatus": "{current} / {total} — следующая нота: {noteLabel}",
+  "@guidedProgressStatus": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"},
+      "noteLabel": {"type": "String"}
+    }
+  },
+  "guidedCompleteStatus": "🎉 Вы доиграли мелодию до конца! Попробуйте ещё раз или выберите другую.",
+
+  "guidedNoteDing": "Динг · {note}",
+  "@guidedNoteDing": {
+    "placeholders": {"note": {"type": "String"}}
+  },
+  "guidedNoteField": "Нота {order} · {note}",
+  "@guidedNoteField": {
+    "placeholders": {
+      "order": {"type": "int"},
+      "note": {"type": "String"}
+    }
+  },
+
+  "tuneRippleName": "Арпеджио ряби",
+  "tuneEveningName": "Вечерняя песня",
+  "tuneSeedName": "Зерно импровизации (для повтора)",
+
+  "settingsTitle": "Настройки",
+  "settingsThemeSection": "Тема",
+  "settingsThemeSystem": "Как в системе",
+  "settingsThemeLight": "Светлая",
+  "settingsThemeDark": "Тёмная",
+  "settingsBirdVolumeSection": "Громкость птиц",
+  "settingsLanguageSection": "Язык",
+  "settingsLanguageSystem": "Язык системы"
+}
