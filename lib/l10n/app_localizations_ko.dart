@@ -104,6 +104,27 @@ class AppLocalizationsKo extends AppLocalizations {
   String get settingsBirdVolumeSection => '새소리 음량';
 
   @override
+  String get settingsBgmSection => '배경음악';
+
+  @override
+  String get settingsBgmTrackLabel => '재생할 곡';
+
+  @override
+  String get settingsBgmNone => '선택 안 함';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => '언어';
 
   @override

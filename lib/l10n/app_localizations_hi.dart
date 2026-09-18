@@ -108,6 +108,27 @@ class AppLocalizationsHi extends AppLocalizations {
   String get settingsBirdVolumeSection => 'पक्षियों की आवाज़';
 
   @override
+  String get settingsBgmSection => 'बैकग्राउंड म्यूज़िक';
+
+  @override
+  String get settingsBgmTrackLabel => 'ट्रैक चुनें';
+
+  @override
+  String get settingsBgmNone => 'कोई नहीं';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => 'भाषा';
 
   @override

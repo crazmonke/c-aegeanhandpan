@@ -108,6 +108,27 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsBirdVolumeSection => 'Vogelgezwitscher-Lautstärke';
 
   @override
+  String get settingsBgmSection => 'Hintergrundmusik';
+
+  @override
+  String get settingsBgmTrackLabel => 'Titel';
+
+  @override
+  String get settingsBgmNone => 'Keine';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => 'Sprache';
 
   @override

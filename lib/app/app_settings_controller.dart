@@ -39,4 +39,32 @@ class AppSettingsController extends ChangeNotifier {
     await _store.setBirdVolume(value);
     notifyListeners();
   }
+
+  bool get reverbEnabled => _store.reverbEnabled;
+
+  Future<void> setReverbEnabled(bool value) async {
+    await _store.setReverbEnabled(value);
+    notifyListeners();
+  }
+
+  double get freePlayVolume => _store.freePlayVolume;
+
+  Future<void> setFreePlayVolume(double value) async {
+    await _store.setFreePlayVolume(value);
+    notifyListeners();
+  }
+
+  double get bgmVolume => _store.bgmVolume;
+
+  Future<void> setBgmVolume(double value) async {
+    await _store.setBgmVolume(value);
+    notifyListeners();
+  }
+
+  String? get bgmTrackId => _store.bgmTrackId;
+
+  Future<void> setBgmTrackId(String? id) async {
+    await _store.setBgmTrackId(id);
+    notifyListeners();
+  }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../core/audio/bgm_player.dart';
 import '../core/audio/bird_ambience_player.dart';
 import '../core/audio/handpan_audio_engine.dart';
 import '../features/root/root_shell.dart';
@@ -14,11 +15,13 @@ class HandpanApp extends StatelessWidget {
     required this.settingsController,
     required this.audioEngine,
     required this.birdAmbiencePlayer,
+    required this.bgmPlayer,
   });
 
   final AppSettingsController settingsController;
   final HandpanAudioEngine audioEngine;
   final BirdAmbiencePlayer birdAmbiencePlayer;
+  final BgmPlayer bgmPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -27,6 +30,7 @@ class HandpanApp extends StatelessWidget {
         ChangeNotifierProvider<AppSettingsController>.value(value: settingsController),
         ChangeNotifierProvider<HandpanAudioEngine>.value(value: audioEngine),
         ChangeNotifierProvider<BirdAmbiencePlayer>.value(value: birdAmbiencePlayer),
+        ChangeNotifierProvider<BgmPlayer>.value(value: bgmPlayer),
       ],
       child: Consumer<AppSettingsController>(
         builder: (context, settings, _) {

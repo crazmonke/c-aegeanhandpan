@@ -55,6 +55,13 @@
   "settingsThemeLight": "Hell",
   "settingsThemeDark": "Dunkel",
   "settingsBirdVolumeSection": "Vogelgezwitscher-Lautstärke",
+  "settingsBgmSection": "Hintergrundmusik",
+  "settingsBgmTrackLabel": "Titel",
+  "settingsBgmNone": "Keine",
+  "bgmTrack1Name": "BGM 1",
+  "bgmTrack2Name": "BGM 2",
+  "bgmTrack3Name": "BGM 3",
+  "bgmTrack4Name": "BGM 4",
   "settingsLanguageSection": "Sprache",
   "settingsLanguageSystem": "Systemsprache"
 }

@@ -56,6 +56,13 @@
   "settingsThemeLight": "라이트",
   "settingsThemeDark": "다크",
   "settingsBirdVolumeSection": "새소리 음량",
+  "settingsBgmSection": "배경음악",
+  "settingsBgmTrackLabel": "재생할 곡",
+  "settingsBgmNone": "선택 안 함",
+  "bgmTrack1Name": "BGM 1",
+  "bgmTrack2Name": "BGM 2",
+  "bgmTrack3Name": "BGM 3",
+  "bgmTrack4Name": "BGM 4",
   "settingsLanguageSection": "언어",
   "settingsLanguageSystem": "시스템 언어"
 }

@@ -104,6 +104,27 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsBirdVolumeSection => '鸟鸣音量';
 
   @override
+  String get settingsBgmSection => '背景音乐';
+
+  @override
+  String get settingsBgmTrackLabel => '选择曲目';
+
+  @override
+  String get settingsBgmNone => '不使用';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => '语言';
 
   @override

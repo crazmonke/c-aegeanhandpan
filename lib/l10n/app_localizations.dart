@@ -289,6 +289,48 @@ abstract class AppLocalizations {
   /// **'새소리 음량'**
   String get settingsBirdVolumeSection;
 
+  /// No description provided for @settingsBgmSection.
+  ///
+  /// In ko, this message translates to:
+  /// **'배경음악'**
+  String get settingsBgmSection;
+
+  /// No description provided for @settingsBgmTrackLabel.
+  ///
+  /// In ko, this message translates to:
+  /// **'재생할 곡'**
+  String get settingsBgmTrackLabel;
+
+  /// No description provided for @settingsBgmNone.
+  ///
+  /// In ko, this message translates to:
+  /// **'선택 안 함'**
+  String get settingsBgmNone;
+
+  /// No description provided for @bgmTrack1Name.
+  ///
+  /// In ko, this message translates to:
+  /// **'BGM 1'**
+  String get bgmTrack1Name;
+
+  /// No description provided for @bgmTrack2Name.
+  ///
+  /// In ko, this message translates to:
+  /// **'BGM 2'**
+  String get bgmTrack2Name;
+
+  /// No description provided for @bgmTrack3Name.
+  ///
+  /// In ko, this message translates to:
+  /// **'BGM 3'**
+  String get bgmTrack3Name;
+
+  /// No description provided for @bgmTrack4Name.
+  ///
+  /// In ko, this message translates to:
+  /// **'BGM 4'**
+  String get bgmTrack4Name;
+
   /// No description provided for @settingsLanguageSection.
   ///
   /// In ko, this message translates to:

@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../app/app_settings_controller.dart';
+import '../../core/audio/bgm_player.dart';
 import '../../core/audio/bird_ambience_player.dart';
+import '../../core/constants/bgm_catalog.dart';
 import '../../l10n/app_localizations.dart';
 
 class _LanguageOption {
@@ -90,6 +92,64 @@ class SettingsScreen extends StatelessWidget {
                       textAlign: TextAlign.end,
                       style: Theme.of(context).textTheme.labelMedium,
                     ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          _SectionLabel(l10n.settingsBgmSection),
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  DropdownButtonFormField<String?>(
+                    initialValue: settings.bgmTrackId,
+                    decoration: InputDecoration(
+                      labelText: l10n.settingsBgmTrackLabel,
+                      border: const OutlineInputBorder(),
+                    ),
+                    items: [
+                      DropdownMenuItem<String?>(value: null, child: Text(l10n.settingsBgmNone)),
+                      for (final track in bgmCatalog)
+                        DropdownMenuItem<String?>(value: track.id, child: Text(track.nameOf(l10n))),
+                    ],
+                    onChanged: (id) {
+                      settings.setBgmTrackId(id);
+                      context.read<BgmPlayer>().setTrack(id);
+                    },
+                  ),
+                  const SizedBox(height: 12),
+                  Row(
+                    children: [
+                      const Icon(Icons.library_music_outlined),
+                      Expanded(
+                        child: Slider(
+                          value: settings.bgmVolume * 100,
+                          min: 0,
+                          max: 100,
+                          divisions: 100,
+                          label: '${(settings.bgmVolume * 100).round()}',
+                          onChanged: settings.bgmTrackId == null
+                              ? null
+                              : (value) {
+                                  final volume = value / 100;
+                                  settings.setBgmVolume(volume);
+                                  context.read<BgmPlayer>().setVolume(volume);
+                                },
+                        ),
+                      ),
+                      SizedBox(
+                        width: 34,
+                        child: Text(
+                          '${(settings.bgmVolume * 100).round()}',
+                          textAlign: TextAlign.end,
+                          style: Theme.of(context).textTheme.labelMedium,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),

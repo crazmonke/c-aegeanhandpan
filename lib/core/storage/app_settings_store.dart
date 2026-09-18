@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Persists the user's language and light/dark theme overrides. Both
-/// default to following the system (locale auto-detected, theme via
-/// `ThemeMode.system`) until the user picks something in Settings.
+/// Persists the user's language, theme, and audio-mix overrides. Language
+/// defaults to following the system, theme to `ThemeMode.system`; the
+/// audio settings default to a quiet-but-present ambience: bird volume
+/// 5%, reverb off, free-play (handpan) volume at 50%, no BGM track.
 class AppSettingsStore {
   AppSettingsStore._(this._prefs);
 
   static const _languageCodeKey = 'languageCode';
   static const _themeModeKey = 'themeMode';
   static const _birdVolumeKey = 'birdVolume';
+  static const _reverbEnabledKey = 'reverbEnabled';
+  static const _freePlayVolumeKey = 'freePlayVolume';
+  static const _bgmVolumeKey = 'bgmVolume';
+  static const _bgmTrackIdKey = 'bgmTrackId';
 
   final SharedPreferences _prefs;
 
@@ -43,10 +48,43 @@ class AppSettingsStore {
   }
 
   /// The ambient bird-call volume (separate from the handpan's own
-  /// volume), stored as 0.0-1.0. Defaults to 0.5 (50%).
-  double get birdVolume => _prefs.getDouble(_birdVolumeKey) ?? 0.5;
+  /// volume), stored as 0.0-1.0. Defaults to 0.05 (5%).
+  double get birdVolume => _prefs.getDouble(_birdVolumeKey) ?? 0.05;
 
   Future<void> setBirdVolume(double value) {
     return _prefs.setDouble(_birdVolumeKey, value);
+  }
+
+  /// Whether the handpan's resonance (reverb) filter is on. Defaults to
+  /// off.
+  bool get reverbEnabled => _prefs.getBool(_reverbEnabledKey) ?? false;
+
+  Future<void> setReverbEnabled(bool value) {
+    return _prefs.setBool(_reverbEnabledKey, value);
+  }
+
+  /// The handpan's own (Free Play / Guided Practice) master volume,
+  /// stored as 0.0-1.0. Defaults to 0.5 (50%).
+  double get freePlayVolume => _prefs.getDouble(_freePlayVolumeKey) ?? 0.5;
+
+  Future<void> setFreePlayVolume(double value) {
+    return _prefs.setDouble(_freePlayVolumeKey, value);
+  }
+
+  /// The background-music volume, stored as 0.0-1.0. Defaults to 0.5
+  /// (50%) - only audible once a track is picked below.
+  double get bgmVolume => _prefs.getDouble(_bgmVolumeKey) ?? 0.5;
+
+  Future<void> setBgmVolume(double value) {
+    return _prefs.setDouble(_bgmVolumeKey, value);
+  }
+
+  /// The selected BGM track's id (see `bgmCatalog`), or null for
+  /// "None" - no background music. Defaults to null.
+  String? get bgmTrackId => _prefs.getString(_bgmTrackIdKey);
+
+  Future<void> setBgmTrackId(String? id) {
+    if (id == null) return _prefs.remove(_bgmTrackIdKey);
+    return _prefs.setString(_bgmTrackIdKey, id);
   }
 }

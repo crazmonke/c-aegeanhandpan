@@ -107,6 +107,27 @@ class AppLocalizationsPt extends AppLocalizations {
   String get settingsBirdVolumeSection => 'Volume dos pássaros';
 
   @override
+  String get settingsBgmSection => 'Música de fundo';
+
+  @override
+  String get settingsBgmTrackLabel => 'Faixa';
+
+  @override
+  String get settingsBgmNone => 'Nenhuma';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => 'Idioma';
 
   @override
@@ -214,6 +235,27 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get settingsBirdVolumeSection => 'Volume dos pássaros';
+
+  @override
+  String get settingsBgmSection => 'Música de fundo';
+
+  @override
+  String get settingsBgmTrackLabel => 'Faixa';
+
+  @override
+  String get settingsBgmNone => 'Nenhuma';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
 
   @override
   String get settingsLanguageSection => 'Idioma';

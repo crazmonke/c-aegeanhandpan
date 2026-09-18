@@ -108,6 +108,27 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsBirdVolumeSection => 'Громкость птиц';
 
   @override
+  String get settingsBgmSection => 'Фоновая музыка';
+
+  @override
+  String get settingsBgmTrackLabel => 'Трек';
+
+  @override
+  String get settingsBgmNone => 'Нет';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => 'Язык';
 
   @override

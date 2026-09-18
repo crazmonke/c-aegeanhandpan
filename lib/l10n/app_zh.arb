@@ -55,6 +55,13 @@
   "settingsThemeLight": "浅色",
   "settingsThemeDark": "深色",
   "settingsBirdVolumeSection": "鸟鸣音量",
+  "settingsBgmSection": "背景音乐",
+  "settingsBgmTrackLabel": "选择曲目",
+  "settingsBgmNone": "不使用",
+  "bgmTrack1Name": "BGM 1",
+  "bgmTrack2Name": "BGM 2",
+  "bgmTrack3Name": "BGM 3",
+  "bgmTrack4Name": "BGM 4",
   "settingsLanguageSection": "语言",
   "settingsLanguageSystem": "系统语言"
 }

@@ -105,6 +105,27 @@ class AppLocalizationsJa extends AppLocalizations {
   String get settingsBirdVolumeSection => '鳥の声の音量';
 
   @override
+  String get settingsBgmSection => 'BGM(背景音楽)';
+
+  @override
+  String get settingsBgmTrackLabel => '曲を選択';
+
+  @override
+  String get settingsBgmNone => '選択しない';
+
+  @override
+  String get bgmTrack1Name => 'BGM 1';
+
+  @override
+  String get bgmTrack2Name => 'BGM 2';
+
+  @override
+  String get bgmTrack3Name => 'BGM 3';
+
+  @override
+  String get bgmTrack4Name => 'BGM 4';
+
+  @override
   String get settingsLanguageSection => '言語';
 
   @override

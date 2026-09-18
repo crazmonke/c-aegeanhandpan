@@ -55,6 +55,13 @@
   "settingsThemeLight": "ライト",
   "settingsThemeDark": "ダーク",
   "settingsBirdVolumeSection": "鳥の声の音量",
+  "settingsBgmSection": "BGM(背景音楽)",
+  "settingsBgmTrackLabel": "曲を選択",
+  "settingsBgmNone": "選択しない",
+  "bgmTrack1Name": "BGM 1",
+  "bgmTrack2Name": "BGM 2",
+  "bgmTrack3Name": "BGM 3",
+  "bgmTrack4Name": "BGM 4",
   "settingsLanguageSection": "言語",
   "settingsLanguageSystem": "システムの言語"
 }

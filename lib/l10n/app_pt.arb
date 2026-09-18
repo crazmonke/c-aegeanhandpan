@@ -55,6 +55,13 @@
   "settingsThemeLight": "Claro",
   "settingsThemeDark": "Escuro",
   "settingsBirdVolumeSection": "Volume dos pássaros",
+  "settingsBgmSection": "Música de fundo",
+  "settingsBgmTrackLabel": "Faixa",
+  "settingsBgmNone": "Nenhuma",
+  "bgmTrack1Name": "BGM 1",
+  "bgmTrack2Name": "BGM 2",
+  "bgmTrack3Name": "BGM 3",
+  "bgmTrack4Name": "BGM 4",
   "settingsLanguageSection": "Idioma",
   "settingsLanguageSystem": "Idioma do sistema"
 }

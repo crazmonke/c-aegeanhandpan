@@ -55,6 +55,13 @@
   "settingsThemeLight": "Light",
   "settingsThemeDark": "Dark",
   "settingsBirdVolumeSection": "Bird sound volume",
+  "settingsBgmSection": "Background music",
+  "settingsBgmTrackLabel": "Track",
+  "settingsBgmNone": "None",
+  "bgmTrack1Name": "BGM 1",
+  "bgmTrack2Name": "BGM 2",
+  "bgmTrack3Name": "BGM 3",
+  "bgmTrack4Name": "BGM 4",
   "settingsLanguageSection": "Language",
   "settingsLanguageSystem": "System language"
 }

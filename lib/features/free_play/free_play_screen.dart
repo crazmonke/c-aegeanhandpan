@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../app/app_settings_controller.dart';
 import '../../core/audio/handpan_audio_engine.dart';
 import '../../core/constants/tone_field_catalog.dart';
 import '../../l10n/app_localizations.dart';
@@ -26,6 +27,7 @@ class _FreePlayScreenState extends State<FreePlayScreen> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final engine = context.watch<HandpanAudioEngine>();
+    final settings = context.read<AppSettingsController>();
 
     return SafeArea(
       child: Padding(
@@ -67,7 +69,10 @@ class _FreePlayScreenState extends State<FreePlayScreen> {
                 _LabeledSwitch(
                   label: l10n.freePlayReverbToggle,
                   value: engine.reverbEnabled,
-                  onChanged: engine.setReverbEnabled,
+                  onChanged: (v) {
+                    engine.setReverbEnabled(v);
+                    settings.setReverbEnabled(v);
+                  },
                 ),
                 SizedBox(
                   width: 170,
@@ -75,7 +80,13 @@ class _FreePlayScreenState extends State<FreePlayScreen> {
                     children: [
                       Text(l10n.freePlayVolumeLabel, style: const TextStyle(fontSize: 12.5, color: _fgDim)),
                       Expanded(
-                        child: Slider(value: engine.volume, onChanged: engine.setVolume),
+                        child: Slider(
+                          value: engine.volume,
+                          onChanged: (v) {
+                            engine.setVolume(v);
+                            settings.setFreePlayVolume(v);
+                          },
+                        ),
                       ),
                     ],
                   ),
